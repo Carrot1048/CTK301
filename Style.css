@@ -1,0 +1,59 @@
+/*This is my stylesheet*/
+h1{
+  color: green;
+  background-color: #C3E3DF;
+}
+
+#uniqueparagraph{
+  background-color: #000000;
+  color: #C3E3DF;
+}
+/*
+p{
+  background-color: #ff3366;
+  color: #2244ff;
+}
+*/
+.specialp{
+  color: #00ff00;
+  background-color: #FFFFFF;
+}
+
+a{
+  color: #FF0000;
+}
+/*
+a:link{
+  color: #00FF00;
+}
+
+a:visited {
+ color: #0000ff;
+}
+
+a:active {
+ color: #00ffff;
+}
+*/
+a:hover {
+  text-decoration: underline;
+ color: #0000ff;
+}
+
+a{
+  text-decoration: none;
+}
+
+footer{
+  color: #FFFFFF;
+  background-color:#FF0000;
+}
+
+#divexample{
+  color: #0000FF;
+  background-color: #00ffff;
+}
+
+.spanstyle{
+  color: #B4D2E6;
+}
