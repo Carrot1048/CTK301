@@ -1,0 +1,66 @@
+a{
+  text-decoration: none;
+  color: #ff0000;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #FFE14C;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #00ff00;
+}
+
+h1{
+  color: #8948CB;
+}
+
+.ReqTitle{
+  color:#ffffff;
+  background-color: #8948CB;
+}
+
+#Info{
+  color: #5EAF80;
+  background-color: #8948CB;
+}
+
+h2{
+  color: #5EAF80;
+}
+
+#head1{
+  color: #33A0A7;
+}
+
+p{
+  color:#AAAAAA;
+  background-color: #000000;
+}
+
+.hours{
+  color: #33A0A7;
+}
+
+.Reqlist{
+  color: #33A0A7;
+}
+
+h3{
+  color: #7614C6;
+}
+
+h4{
+  color: #D92ABC;
+}
+
+.headcourses{
+  color: #75A9C1;
+}
+
+.pcourses{
+  color: #8948CB;
+  background-color: #ffffff;
+}
