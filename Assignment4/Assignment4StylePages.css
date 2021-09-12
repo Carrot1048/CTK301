@@ -1,0 +1,110 @@
+a{
+  text-decoration: none;
+  color: #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #FFE14C;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #00ff00;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  color: #FF9900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.ReqTitle{
+  color:#FF9900;
+  background-color: #8948CB;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+#Info{
+  color: #5EAF80;
+  background-color: #8948CB;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2{
+  color: #FF9900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+#head1{
+  color: #FF9900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+p{
+  color:#AAAAAA;
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hours{
+  color: #FF9900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Reqlist{
+  color: #33A0A7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+  color: #FF9900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h4{
+  color: #FF9900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.headcourses{
+  color: #FF9900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.pcourses{
+  color: #8948CB;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+img{
+  border: 10px solid #000000;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+body{
+  background-color: #CCCCCC;
+  background-image: url(../Winter.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
