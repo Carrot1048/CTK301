@@ -1,0 +1,50 @@
+header{
+  background-color: #8DA0DC;
+}
+
+h1{
+  color: #FFFFFF;
+}
+
+a{
+  color: #00FF00;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FF0000;
+  text-decoration: underline;
+}
+
+.paragraphhead{
+  text-align: left;
+}
+
+.inline{
+  color: #FF9B38;
+}
+
+h2{
+  color: #B400F6;
+}
+
+h3{
+  background-color: #FFEB38;
+}
+
+.red{
+  color: #FF0000;
+}
+
+h4{
+  color: #FFEB38;
+  background-color: #1A972B;
+}
+
+.highlighted{
+  background-color: #A2F812;
+}
+
+h5{
+  color: #D610D3;
+}
