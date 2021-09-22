@@ -1,0 +1,59 @@
+body{
+  background-image: url(Soul.png);
+  background-repeat: no-repeat;
+  background-position: upper left;
+}
+
+main{
+  width: 650px;
+}
+
+div p{
+  text-align: right;
+  margin: 0% 10% 0% 0%;
+  font: normal normal 16px Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+h1{
+  color: #3894FF;
+  font: normal bold 125px Impact;
+  text-align: center;
+  margin: 125px;
+}
+
+.colorO{
+  color: #FFB638;
+}
+
+.Disney{
+  margin: 520px 0 0 0;
+}
+
+p{
+  font-size: 100%;
+  display: block;
+  text-align: center;
+  margin: 0%;
+  font-family: Helvetica;
+  color: #3894FF;
+}
+
+.smaller{
+  font-size: 0.625em;
+}
+
+.linked{
+  margin: 10px;
+}
+
+a{
+  color: #3894FF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #FFB638;
+  text-decoration: underline;
+}
