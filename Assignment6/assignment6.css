@@ -1,0 +1,108 @@
+body {
+  background-image: url(a62.png);
+}
+
+#around {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header {
+  grid-column: span 4;
+  background-color: #000000;
+  font-weight: normal;
+  font-family: Helvetica;
+  color: #ffffff;
+  margin: 1em;
+  padding: 0 1em;
+}
+
+h1{
+  font-weight: normal;
+}
+
+nav{
+  grid-column: span 1;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+  width: 215px;
+  margin: 0 1em 1em 1em;
+}
+
+nav a{
+  display: block;
+  background-color: #ff0000;
+  border: 1px solid #000000;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Helvetica;
+}
+
+nav a:hover{
+  background-color: #A30000;
+}
+
+main{
+  grid-column: span 3;
+}
+
+.firstthree{
+  text-align: justify;
+  font: normal bold 16px Georgia;
+  padding-right: 1em;
+}
+
+main img{
+  border: 5px solid #000000;
+  padding: 10px;
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+main a{
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+main a:hover{
+  text-decoration: underline;
+  color: #0000ff;
+}
+
+main p{
+  padding-right: 2em;
+}
+
+h2{
+  font-family: Helvetica;
+  border-bottom: 4px solid #000000;
+  margin: 0 1em 1em 0;
+}
+
+footer{
+  grid-column: span 4;
+  background-color: #ff0000;
+  text-align: center;
+  border-top: 2px solid #000000;
+}
+
+footer p{
+  font: italic normal 12px Verdana;
+  color: #ffffff;
+  padding: 0 1em;
+}
