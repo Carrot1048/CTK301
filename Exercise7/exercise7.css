@@ -1,0 +1,121 @@
+body{
+  background-image: url(black.jpg);
+}
+
+#backimage{
+  width:960px;
+  margin: 1em auto;
+  border: 3px solid #000000;
+  padding: 0;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header{
+  grid-column: span 12;
+  background-color:#CDAC5A;
+  border-bottom: 3px solid #000000;
+}
+
+h1{
+  font-family: Helvetica,sans-serif;
+  font-weight: normal;
+  padding: 0 1em;
+}
+
+nav{
+  grid-column: span 12;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+
+}
+
+nav li{
+  display: inline-block;
+  width: 215px;
+}
+
+nav a{
+  background-color: #3634B5;
+  display: block;
+  padding: 1em;
+  margin: 1em;
+  color: #ffffff;
+  text-decoration: none;
+  border: 3px solid #000000;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+nav a:hover{
+  background-color: #CDAC5A;
+}
+
+main{
+  grid-column: span 9;
+  padding-right: 1em;
+}
+
+main h2{
+  border-bottom: 3px solid #000000;
+  margin-left: 1em;
+  font-family: Georgia, sans-serif;
+}
+
+main p{
+  padding-left: 1em;
+}
+
+main a{
+  color: #3634B5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover{
+  color: #CDAC5A;
+}
+
+img{
+  float: right;
+}
+
+aside{
+  grid-column: span 3;
+  background-color: #CDAC5A;
+  margin-right: 1em;
+}
+
+aside h2{
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+aside p{
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+.slant{
+  font-style: italic;
+}
+
+footer{
+  grid-column: span 12;
+  background-color: #CDAC5A;
+  margin-top: 1em;
+  border-top: 3px solid #000000;
+}
+
+footer p{
+  padding: 0 1em;
+  font-weight: bold;
+}
