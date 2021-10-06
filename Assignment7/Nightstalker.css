@@ -30,7 +30,7 @@ h1{
   color: #ffffff;
   font-style: italic;
   font-weight: normal;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   font-size: 36px;
   padding: 0 8px;
 }
@@ -77,7 +77,7 @@ main{
 .intro{
   border-bottom: 4px solid #87A9BF;
   font-weight: normal;
-  font-family: Helvetica;
+  font-family: Helvetica,sans-serif;
   color: #406077;
   font-size: 30px;
   margin-top: 1em;
@@ -85,7 +85,7 @@ main{
 }
 
 main p{
-  font-family: Georgia;
+  font-family: Georgia, serif;
   text-align: justify;
   font-weight: bold;
   margin-top: 0;
@@ -99,7 +99,7 @@ main p{
 .skip{
   border-bottom: 4px solid #87A9BF;
   color: #406077;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   font-size: 30px;
   font-weight: normal;
   margin-top: 0;
@@ -108,7 +108,7 @@ main p{
 .sweet{
   border-bottom: 4px solid #87A9BF;
   color: #406077;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   font-size: 30px;
   font-weight: normal;
   margin-top: 1em;
@@ -119,7 +119,7 @@ main p{
 }
 
 .content{
-  font-family: Georgia;
+  font-family: Georgia, serif;
   padding: 2px;
 }
 
