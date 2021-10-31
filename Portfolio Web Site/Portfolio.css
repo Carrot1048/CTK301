@@ -1,0 +1,99 @@
+body{
+  background-color: #000000;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #19556E;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+nav{
+  grid-column: span 4;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  display: block;
+  padding: 1em;
+  background-color: #9D4B59;
+  color: #ffffff;
+  text-decoration: none;
+  font: normal normal 28px Helvetica, Arial, sans-serif;
+  margin: 0 24px;
+  text-align: center;
+}
+
+div{
+  grid-column: span 4;
+}
+
+img{
+  width: 100%;
+}
+
+main{
+  background-image: url(../Assignment7/Howl.jpg);
+  /*background-repeat: no-repeat;*/
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+}
+
+main h1{
+  color: #ffffff;
+  font: normal bold 144px Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  margin: 24px;
+  grid-column: span 3;
+}
+
+article{
+  background-color: #9D4B59;
+  margin: 12px;
+}
+
+article h2{
+  text-align: center;
+  font: normal normal 24px Helvetica, Arial, sans-serif;
+  color: #ffffff;
+}
+
+footer{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+  background-color: #ffffff;
+  margin-top: 24px;
+}
+
+.Logo{
+  grid-column: span 1;
+}
+
+footer aside{
+  background-color: #9D4B59;
+}
+
+footer aside h2{
+  text-align: center;
+  font: normal normal 24px Helvetica, Arial, sans-serif;
+  background-color: #9D4B59;
+  color: #ffffff;
+}
