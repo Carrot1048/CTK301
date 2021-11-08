@@ -13,6 +13,10 @@ body{
   grid-column-gap: 24px;
 }
 
+.more{
+  grid-column: span 4;
+}
+
 nav{
   grid-column: span 4;
 }
@@ -33,9 +37,18 @@ nav a{
   background-color: #9D4B59;
   color: #ffffff;
   text-decoration: none;
-  font: normal normal 28px Helvetica, Arial, sans-serif;
+  font: normal normal 24px Helvetica, Arial, sans-serif;
   margin: 0 24px;
   text-align: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  box-shadow: 5px 5px 10px #000;
+  border-radius: 10px 10px 10px 0px;
+  transition: background-color 1.0s, box-shadow 1.0s;
+}
+
+nav a:hover{
+  background-color: #6D1B56;
+  box-shadow: 10px 10px 10px #000;
 }
 
 div{
@@ -43,7 +56,8 @@ div{
 }
 
 img{
-  width: 100%;
+  border-radius: 500px;
+  margin: 0 64px;
 }
 
 main{
@@ -61,6 +75,7 @@ main h1{
   text-transform: uppercase;
   margin: 24px;
   grid-column: span 3;
+  font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 article{
@@ -72,6 +87,7 @@ article h2{
   text-align: center;
   font: normal normal 24px Helvetica, Arial, sans-serif;
   color: #ffffff;
+  font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 footer{
@@ -96,4 +112,11 @@ footer aside h2{
   font: normal normal 24px Helvetica, Arial, sans-serif;
   background-color: #9D4B59;
   color: #ffffff;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+footer a{
+  padding: 24px;
+  font-size: 28px;
+  color: #19556E;
 }
