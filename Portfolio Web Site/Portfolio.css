@@ -55,6 +55,10 @@ img{
   border-radius: 500px;
 }
 
+.Photo{
+  grid-column: span 6;
+}
+
 .Booking{
   background-image: none;
   background-color: #9D4B59;
@@ -69,6 +73,14 @@ img{
   grid-column: span 12;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+}
+
+.Family{
+  background-image: none;
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 24px;
 }
 
@@ -104,6 +116,15 @@ main h1{
   text-transform: uppercase;
   margin: 24px;
   grid-column: span 4;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.fam{
+  color: #ffffff;
+  font: normal bold 48px Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  margin: 24px;
+  grid-column: span 6;
   font-family: 'Mochiy Pop P One', sans-serif;
 }
 
@@ -180,11 +201,31 @@ article{
   margin-left: 400px;
 }
 
+.Info{
+  background-color: #9D4B59;
+  margin: 0;
+  grid-column: span 1;
+}
+
 article h2{
   text-align: center;
   font: normal normal 24px Helvetica, Arial, sans-serif;
   color: #ffffff;
   font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+p{
+  margin: 6px;
+  text-align: justify;
+  font: normal normal 12px Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-weight: normal;
+}
+
+.bold{
+  font-weight: bold;
+  color: #9D4B59;
 }
 
 footer{
