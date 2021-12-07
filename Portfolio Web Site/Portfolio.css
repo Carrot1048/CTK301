@@ -55,6 +55,10 @@ img{
   border-radius: 500px;
 }
 
+.pics{
+  border-radius: 0;
+}
+
 .Photo{
   grid-column: span 6;
 }
@@ -88,7 +92,7 @@ main{
   background-image: url(../Assignment7/Howl.jpg);
   grid-column: span 12;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 24px;
 }
 
@@ -137,9 +141,14 @@ main h1{
   height: 600px;
   margin-right: 20px;
 
-  background-image: url(../Assignment7/Howl.jpg);
-  background-color: #eee;
-  border-radius: 6px;
+  background-color: #19556E;
+}
+
+.caption{
+  font: normal normal 12px Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
 }
 
 .novels{
@@ -164,6 +173,7 @@ main h1{
 article{
   background-color: #9D4B59;
   margin: 12px;
+  grid-column: span 2;
 }
 
 .excerpts1{
@@ -204,7 +214,8 @@ article{
 .Info{
   background-color: #9D4B59;
   margin: 0;
-  grid-column: span 1;
+  grid-column: span 2;
+  margin-top: 12px;
 }
 
 article h2{
@@ -219,7 +230,7 @@ p{
   text-align: justify;
   font: normal normal 12px Helvetica, Arial, sans-serif;
   color: #ffffff;
-  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: normal;
 }
 
